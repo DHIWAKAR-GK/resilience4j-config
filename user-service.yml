@@ -35,6 +35,13 @@ resilience4j:
         waitDurationInOpenState: 12s
         permittedNumberOfCallsInHalfOpenState: 3
         eventConsumerBufferSize: 10
+      
+  timelimiter:
+    instances:
+      user-service:
+       timeout-duration: 13s
+
+     
 
 
 
